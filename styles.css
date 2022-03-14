@@ -48,6 +48,7 @@
     border-radius: 10px;
     box-shadow: -3px -3px 7px #ffffff73 ,2px 2px 3px rgba(94,104,121,0.288);
   }
+  
   .txt{
     grid-column: 1/5;
     padding: 5px;
@@ -95,4 +96,31 @@
   }
   .dark .btn:focus {
     box-shadow:  inset 2px 2px 5px #141414, inset -5px -5px 10px #212121;
+  }
+
+  @media (max-width: 992px) {
+    .calculator{
+      width: 95%;
+      height: 70vh;
+      padding: 10px;
+    }
+    .txt{
+      font-size: 70px;
+    }
+    .btn{
+      font-size: 50px;
+    }
+    .btn--dark{
+      height: 40px;
+      width: 80px;
+      left: 50px;
+      top: 50px;
+    }
+    .btn--dark:after {
+      height: 40px;
+      width: 40px;
+    }
+    .btn--light:after{
+      transform: translateX(40px);
+    }
   }
