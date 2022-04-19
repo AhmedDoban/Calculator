@@ -8,25 +8,25 @@
     <body>
         <div class="btn--dark"></div>
         <form class="calculator" name="calc">
-            <input type="text" name="val" readonly="" class="txt"/>
-            <input type="button" value = 'c' class="btn clear" onclick="document.calc.val.value = ''">
-            <input type="button" value = '*' class="btn" onclick="document.calc.val.value += '*'">
-            <input type="button" value = '/' class="btn" onclick="document.calc.val.value += '/'">
-            <input type="button" value = '7' class="btn" onclick="document.calc.val.value += '7'">
-            <input type="button" value = '8' class="btn" onclick="document.calc.val.value += '8'">
-            <input type="button" value = '9' class="btn" onclick="document.calc.val.value += '9'">
-            <input type="button" value = '-' class="btn" onclick="document.calc.val.value += '-'">
-            <input type="button" value = '4' class="btn" onclick="document.calc.val.value += '4'">
-            <input type="button" value = '5' class="btn" onclick="document.calc.val.value += '5'">
-            <input type="button" value = '6' class="btn" onclick="document.calc.val.value += '6'">
-            <input type="button" value = '+' class="btn plus" onclick="document.calc.val.value += '+'">
-            <input type="button" value = '3' class="btn" onclick="document.calc.val.value += '3'">
-            <input type="button" value = '2' class="btn" onclick="document.calc.val.value += '2'">
-            <input type="button" value = '1' class="btn" onclick="document.calc.val.value += '1'">
-            <input type="button" value = '0' class="btn" onclick="document.calc.val.value += '0'">
-            <input type="button" value = '00' class="btn" onclick="document.calc.val.value += '00'">
-            <input type="button" value = '.' class="btn" onclick="document.calc.val.value += '.'">
-            <input type="button" value = '=' class="btn" onclick="document.calc.val.value = eval(calc.val.value)">
+            <input type="text" name="inputBAR" readonly="" class="txt"/>
+            <input type="button" value = 'c' class="btn clear" onclick="document.calc.inputBAR.value = ''">
+            <input type="button" value = '*' class="btn" onclick="document.calc.inputBAR.value += '*'">
+            <input type="button" value = '/' class="btn" onclick="document.calc.inputBAR.value += '/'">
+            <input type="button" value = '7' class="btn" onclick="document.calc.inputBAR.value += '7'">
+            <input type="button" value = '8' class="btn" onclick="document.calc.inputBAR.value += '8'">
+            <input type="button" value = '9' class="btn" onclick="document.calc.inputBAR.value += '9'">
+            <input type="button" value = '-' class="btn" onclick="document.calc.inputBAR.value += '-'">
+            <input type="button" value = '4' class="btn" onclick="document.calc.inputBAR.value += '4'">
+            <input type="button" value = '5' class="btn" onclick="document.calc.inputBAR.value += '5'">
+            <input type="button" value = '6' class="btn" onclick="document.calc.inputBAR.value += '6'">
+            <input type="button" value = '+' class="btn plus" onclick="document.calc.inputBAR.value += '+'">
+            <input type="button" value = '3' class="btn" onclick="document.calc.inputBAR.value += '3'">
+            <input type="button" value = '2' class="btn" onclick="document.calc.inputBAR.value += '2'">
+            <input type="button" value = '1' class="btn" onclick="document.calc.inputBAR.value += '1'">
+            <input type="button" value = '0' class="btn" onclick="document.calc.inputBAR.value += '0'">
+            <input type="button" value = '00' class="btn" onclick="document.calc.inputBAR.value += '00'">
+            <input type="button" value = '.' class="btn" onclick="document.calc.inputBAR.value += '.'">
+            <input type="button" value = '=' class="btn" onclick="document.calc.inputBAR.value = eval(calc.inputBAR.value)">
         </form>
 
         <script>
