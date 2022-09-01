@@ -50,6 +50,7 @@
   }
   
   .txt{
+    border-radius: 1rem;
     grid-column: 1/5;
     padding: 5px;
     font-size: 20px;
@@ -62,6 +63,7 @@
     
   }
   .btn {
+    border-radius: 1rem;
     display: grid;
     place-items: center;
     color: #000;
@@ -105,9 +107,11 @@
       padding: 10px;
     }
     .txt{
+      border-radius: 2rem;
       font-size: 70px;
     }
     .btn{
+      border-radius: 2rem;
       font-size: 50px;
     }
     .btn--dark{
